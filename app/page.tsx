@@ -8,7 +8,7 @@ export default function Home() {
         <h2 className="my-4">Software Engineer in Athens, GA</h2>
         <p> I write code that solves problems for people. Anyone can use AI to write code today, but I believe that writing code is more that just a solution to a problem. Good code encompases the problem, the solution, and the experience of the people who will use it. I strive to write code that is not only functional, but also elegant and intuitive.</p>
         <div className="flex flec-col-2 space-x-4">
-          <Link href="/" className="my-4 underline">
+          <Link href="/projects" className="my-4 underline">
           My Projects
           </Link>
           <Link href="/" className="my-4 underline">
