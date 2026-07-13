@@ -8,9 +8,9 @@ type PageShellProps = {
 const navigation = [
   { href: "/", label: "Home" },
   { href: "/projects", label: "Projects" },
-  { href: "/", label: "Resume" },
-  { href: "/", label: "Articles" },
-  { href: "/", label: "Contact" },
+  // { href: "/", label: "Resume" },
+  // { href: "/", label: "Articles" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export function PageShell({ children }: PageShellProps) {
@@ -40,6 +40,9 @@ export function PageShell({ children }: PageShellProps) {
           </nav>
         </header>
         <div className="flex flex-1 flex-col">{children}</div>
+        <footer className="mt-20 border-t border-zinc-200 pt-8 text-sm text-zinc-500 dark:border-zinc-800 dark:text-zinc-500">
+          © 2026 Will Pursell.
+        </footer>
       </main>
     </div>
   );

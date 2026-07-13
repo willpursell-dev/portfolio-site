@@ -18,7 +18,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     slug: "sheepnote",
-    title: "Sheepnote: Friendship Notes",
+    title: "Sheepnote: Relationship Notes",
     year: "2026",
     summary:
       "An IOS app for remembering conversations, ideas, and follow-ups so that people can be more intentional in their relationships.",
